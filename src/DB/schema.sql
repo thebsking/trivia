@@ -1,0 +1,5 @@
+DROP DATABASE IF EXISTS trivia_db;
+DROP DATABASE IF EXISTS games_db;
+
+CREATE DATABASE trivia_db;
+CREATE DATABASE games_db;
