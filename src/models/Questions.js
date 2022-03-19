@@ -35,3 +35,5 @@ Questions.init(
 
   }
 )
+
+module.exports = Questions;

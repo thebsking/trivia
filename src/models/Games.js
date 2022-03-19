@@ -13,6 +13,7 @@ Game.init(
     date: {
       type: DataTypes.DATEONLY,
       defaultValue: DataTypes.NOW,
+      allowNull: true,
     },
     questions: {
       type: DataTypes.ARRAY,
@@ -21,3 +22,5 @@ Game.init(
 
   }
 )
+
+module.exports = Game;
