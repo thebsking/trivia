@@ -13,6 +13,10 @@ Game.init(
     date: {
       type: DataTypes.DATEONLY,
       defaultValue: DataTypes.NOW,
+    },
+    questions: {
+      type: DataTypes.ARRAY,
+      allowNull: false,
     }
 
   }
