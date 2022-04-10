@@ -1,13 +1,13 @@
 import { Button, Container } from '@mui/material';
 import React from 'react';
 
-function Home() {
+function TopBar() {
   return(
     <div className='content'>
       <div>
         <h1>Alan's Trivia Database</h1>
       </div>
-      <Container >
+      <Container id="menu-buttons">
         <Button variant='contained'>Search Database</Button>
         <Button variant='contained'>Add Question to DB</Button>
         <Button variant='contained' disabled>Generate Game</Button>
@@ -17,4 +17,4 @@ function Home() {
   )
 }
 
-export default Home;
+export default TopBar;

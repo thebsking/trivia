@@ -1,13 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import Home from './pages/Home'
+import TopBar from './components/TopBar'
 import AddQuestion from './pages/AddQuestion';
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
-    <Home />
+    <TopBar />
   </React.StrictMode>,
   document.getElementById('root')
 );

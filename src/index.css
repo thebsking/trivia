@@ -11,7 +11,9 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
-
+h1 {
+  text-align: center;
+}
 #new-q-div {
   width: 80%;
   margin: 0 auto 0 auto;
@@ -20,4 +22,9 @@ code {
 #new-q-div > form{
   display: flex;
   flex-direction: column;
+}
+
+#menu-buttons {
+  display: flex;
+  justify-content: space-between;
 }
