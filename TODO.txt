@@ -1,0 +1,12 @@
+Components
+- textfields
+- buttons
+- table? 
+
+
+Pages
+- Home?
+- Add Question
+- Search Questions
+- View All Questions
+- Create Game? 

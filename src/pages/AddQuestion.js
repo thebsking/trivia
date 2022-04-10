@@ -1,5 +1,5 @@
 import React from "react";
-import { Input } from '@mui/material'
+import BasicInput from "../components/BasicInput";
 
 function AddQuestion() {
   
@@ -10,9 +10,10 @@ function AddQuestion() {
   return (
     <div id='new-q-div' onSubmit={handleSubmit}>
       <form id='new-q-form'>
-        <Input id='category-box' placeholder='Category' variant='filled'/>
-        <Input id='question-box' placeholder='Question' multiline minRows={2} />
-        <Input id='answer-box' placeholder="Answer" />
+        <BasicInput id='category-box' label='Category' size={1} />
+        <BasicInput id='type-box' label='Type' size={1} />
+        <BasicInput id='question-box' label='Question' size={3} />
+        <BasicInput id='answer-box' label='Answer' size={1} />
       </form>
     </div>
   )
