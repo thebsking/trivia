@@ -11,3 +11,13 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+#new-q-div {
+  width: 80%;
+  margin: 0 auto 0 auto;
+}
+
+#new-q-div > form{
+  display: flex;
+  flex-direction: column;
+}
