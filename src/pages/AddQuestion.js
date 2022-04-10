@@ -10,8 +10,9 @@ function AddQuestion() {
   return (
     <div id='new-q-div' onSubmit={handleSubmit}>
       <form id='new-q-form'>
-        <Input id='category-box' placeholder='Category' variant="standard" />
+        <Input id='category-box' placeholder='Category' variant='filled'/>
         <Input id='question-box' placeholder='Question' multiline minRows={2} />
+        <Input id='answer-box' placeholder="Answer" />
       </form>
     </div>
   )
