@@ -1,15 +1,17 @@
+import { Button, Container } from '@mui/material';
 import React from 'react';
 
 function Home() {
   return(
     <div className='content'>
       <div>
-        <h1>Trivia Generator</h1>
+        <h1>Alan's Trivia Database</h1>
       </div>
-      <div>
-        <h2>Generate Game</h2>
-        <button>Generate Game</button>
-      </div>
+      <Container >
+        <Button variant='contained'>Search Database</Button>
+        <Button variant='contained'>Add Question to DB</Button>
+        <Button variant='contained' disabled>Generate Game</Button>
+      </Container>
     </div>
 
   )
