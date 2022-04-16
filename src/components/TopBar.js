@@ -8,10 +8,11 @@ function TopBar() {
         <h1>Alan's Trivia Database</h1>
       </div>
       <Container id="menu-buttons">
-        <Button variant='contained'>Search Database</Button>
-        <Button variant='contained'>Add Question to DB</Button>
-        <Button variant='contained' disabled>Generate Game</Button>
+        <Button href='/search' variant='contained' className='nav-btn'>Search Database</Button>
+        <Button href='/add' variant='contained' className='nav-btn'>Add Question to DB</Button>
+        <Button href='generate' variant='contained' disabled className='nav-btn'>Generate Game</Button>
       </Container>
+      <hr />
     </div>
 
   )
